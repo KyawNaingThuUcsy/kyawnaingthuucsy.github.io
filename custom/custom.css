@@ -28,6 +28,8 @@ html,
 body {
   height: 100%;
   background-color: #333;
+  scroll-behavior: smooth;
+
 }
 
 body {
@@ -107,11 +109,15 @@ body {
 
 @font-face {
     font-family: GreatVibes;
-    src: url("../fonts/GreatVibes-Regular.ttf") format("ttf");
+    src: url("../fonts/GreatVibes-Regular.ttf");
+}
+@font-face {
+    font-family: Anton;
+    src: url("../fonts/Anton-Regular.ttf");
 }
 .my-heading {
-    color: green;
     font-family: 'GreatVibes';
-    font-weight:normal;
-    font-style:normal;
-    }
+}
+.my-content-header {
+    font-family: 'Anton';
+}
